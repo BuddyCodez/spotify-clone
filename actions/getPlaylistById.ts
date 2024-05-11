@@ -1,6 +1,5 @@
 import { Playlist } from "@/types";
-import { createServerComponentClient } from "@supabase/auth-helpers-nextjs";
-import { cookies } from "next/headers";
+
 import { client } from "./client";
 
 const getPlaylistById = async (): Promise<Playlist[]> => {
